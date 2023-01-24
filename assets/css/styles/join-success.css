@@ -1,0 +1,91 @@
+#banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.banner-bronze {
+  background-image: url(../../img/illustrations/bg-success-join-bronze.jpg);
+}
+
+.banner-silver {
+  background-image: url(../../img/illustrations/bg-success-join-silver.jpg);
+}
+
+.banner-gold {
+  background-image: url(../../img/illustrations/bg-success-join-gold.jpg);
+}
+
+.banner-diamond {
+  background-image: url(../../img/illustrations/bg-success-join-diamond.jpg);
+}
+
+#banner .description {
+  padding-top: 100px;
+}
+
+#banner .description h1 {
+  color: white;
+}
+
+#banner .description .success-description {
+  padding-top: 70px;
+}
+
+#banner .description .success-description h1.title-description {
+  margin-bottom: 30px;
+}
+
+#banner .banner-image {
+  width: 470px;
+}
+
+@media screen and (max-width:1000px){
+  #banner .description .success-description {
+    padding-top: 40px;
+  }
+
+  #banner .banner-image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:860px){
+  #banner .banner-image {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width:767px){
+  #banner .description .success-description {
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  #banner .div-banner-image {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  #banner .banner-image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:587px){
+  #banner .div-banner-image {
+    margin-bottom: 70px;
+  }
+
+  #banner .banner-image {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:400px){
+  #banner .banner-image {
+    width: 250px;
+  }
+}

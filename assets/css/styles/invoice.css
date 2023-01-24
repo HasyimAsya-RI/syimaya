@@ -1,0 +1,58 @@
+#panel {
+  /* min-height: 80vh!important;
+  max-height: 80vh!important; */
+}
+
+#banner {
+  padding-top: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#banner .atm-card-body {
+  padding: 150px;
+}
+
+#done {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width:886px){
+  #banner {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+}
+
+@media screen and (max-width:762px){
+  #banner {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #banner .atm-card-body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width:396px){
+  #banner {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #banner .atm-card-body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}

@@ -1,0 +1,84 @@
+a {
+  color: black!important;
+}
+
+#banner .row-banner {
+  margin-top: 60px;
+}
+
+#banner .title-banner {
+  margin-top: 100px;
+}
+
+#banner .title-banner p {
+  width: 450px;
+}
+
+#banner .image-banner img {
+  width: 400px;
+}
+
+#atm-section {
+  margin-top: 60px;
+}
+
+#atm-section .atm-card .atm-card-body {
+  min-height: 120px;
+}
+
+#minimarket-section {
+  margin-top: 30px;
+}
+
+#minimarket-section .minimarket-card .minimarket-card-body {
+  min-height: 120px;
+}
+
+@media screen and (max-width:767px){
+  #banner .row-banner {
+    margin-top: 50px;
+  }
+
+  #banner .title-banner {
+    text-align: -webkit-center;
+    margin-top: 0px;
+  }
+
+  #banner .image-banner {
+    text-align: center;
+  }
+
+  #banner .image-banner img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:767px){
+  #banner .title-banner p {
+    width: 400px;
+  }
+
+  #banner .image-banner img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:400px){
+  #banner .title-banner p {
+    width: 300px;
+  }
+
+  #banner .image-banner img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:330px){
+  #banner .title-banner p {
+    width: 250px;
+  }
+
+  #banner .image-banner img {
+    width: 200px;
+  }
+}

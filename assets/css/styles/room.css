@@ -1,0 +1,67 @@
+i.ni.ni-bell-55 {
+  color: white;
+}
+
+#inbox .info-combo h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bg-header-bronze {
+  background-color: #a2a4a1!important;
+}
+
+.bg-header-silver {
+  background-color: #55d2e0!important;
+}
+
+.bg-header-gold {
+  background-color: #ffce35!important;
+}
+
+.bg-header-diamond {
+  background-color: #5C2A9D!important;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(87deg, #1f6294 0, #425e73 100%) !important;
+}
+
+#header .photo-profile {
+  margin-left: 50px;
+}
+
+#header .photo-profile img{
+  width:170px;
+  border-radius:50%
+}
+
+#header .description-profile {
+  margin-left: 25px;
+}
+
+#header .description-profile h2 {
+  font-weight: 400;
+}
+
+#header .room-id {
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#header .room-id h1 {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#arisan-setting {
+  margin-top: 30px;
+}
+
+#arisan-setting .arisan-box {
+  margin-left: 10px;
+  margin-right: 10px;
+}

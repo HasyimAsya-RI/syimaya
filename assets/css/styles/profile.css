@@ -1,0 +1,7 @@
+.bg-header {
+  background-color: #10578c!important;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(87deg, #1d567f 0, #0079d2 100%) !important;
+}
